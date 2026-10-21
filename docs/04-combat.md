@@ -26,12 +26,14 @@ The player gives orders to individual units or to groups.
 
 | Order | What it does |
 |---|---|
-| **Mine** | Send bots to a Magmore seam. They dig, haul to the nearest depot, and repeat until the seam runs dry |
+| **Mine** | Send bots to a Magmore seam. They dig, haul to the nearest refinery, and repeat until the seam runs dry |
 | **Salvage** | Send bots to a wreck on the battlefield. They pick up the part and carry it back to base (see Salvage and Captured Tech) |
 | **Move** | Send bots to a position, such as pulling them back from danger |
 | **Stop** | Cancel the current order |
 
-### Combots
+### Combots and Infantry
+
+Combots and infantry (trained at the Barracks, see `05-economy.md`) take the same orders.
 
 | Order | What it does |
 |---|---|
@@ -118,6 +120,15 @@ When a combot is destroyed, it may leave something behind. This is how factions 
 - If a faction already knows the part, the delivery is worth **Magmore scrap** instead.
 - This is the only way to mix parts across factions.
 
+### Hollow Wreckage
+
+The Hollow fields its own combots (see `03-mech-design.md`), and they can leave salvage too.
+
+- The chance of a Hollow combot leaving a part is **much lower** than for a faction combot. A starting guess is around one in ten or fewer.
+- Hollow parts are **far more advanced and valuable** than any faction's. Their armor is tougher, and their arm cannons are very powerful.
+- A captured Hollow part becomes a blueprint like any other, but it is a **top-tier** part. It may need research and costs more Magmore to build (see `05-economy.md`).
+- Hollow wreckage is also a prize the other factions will fight over, in the middle of the Hollow's own attack.
+
 ### Why It Matters
 
 - Fights become more than killing. A good win includes holding the ground long enough to grab the wreck.
@@ -177,7 +188,6 @@ The Hollow is a third party in every fight.
 - Should pausing be limited in multiplayer, if we add it?
 - Do we want formations, or is group stance enough?
 - Can a faction recover its own wrecks, for a partial refund?
-- Can the Hollow's own wreckage be salvaged for special parts?
 - How many captured parts can a faction hold? Is there a cap or a research cost?
 - How much should a combot's AI deviate from orders to survive?
 - How big should a typical army be? (Affects UI and performance.)

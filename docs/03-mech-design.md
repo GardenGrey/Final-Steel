@@ -177,6 +177,54 @@ All Simic legs **withstand large falls** better than any other faction's, and Dr
 
 ---
 
+## Hollow Combots: Alien Technology
+
+**Role:** The Hollow is not a faction and isn't built by the player, but it fights with its own combots. They use the same five slots, and they're the strongest machines in the Reach. They are **tougher than any faction's armor**, and their arm cannons are **very powerful**.
+
+Like the other factions, the Hollow has its own identity: **adaptation, burrowing and consuming**. Hollow parts are also **higher tier** than anything the corporations build (call it tier 4).
+
+### Legs
+
+| Part | Movement | Notes |
+|---|---|---|
+| **Skitter Legs** | Fast, adaptive | Quick across any terrain, and hard to pin down |
+| **Burrow Legs** | Underground | Tunnels beneath the ground and emerges to ambush. Can't be targeted while underground |
+| **Colossus Legs** | Heavy walker | Huge load capacity and very slow. Shakes the ground when it walks |
+
+### Torsos
+
+| Part | Notes |
+|---|---|
+| **Carapace Core** | **Toughest armor in the game.** Slow to damage and heavy |
+| **Regen Core** | Slowly repairs itself, even in combat |
+| **Devourer Core** | Heals by consuming wreckage and kills. Also removes salvage from the field |
+
+### Arms (weapons)
+
+| Part | Notes |
+|---|---|
+| **Resonance Cannon** | **Very powerful** arm cannon. High damage, moderate fire rate, long range |
+| **Rend Claw** | Close-range slashes that strip armor |
+| **Pulse Lance** | A piercing beam that hits everything in a line, including several combots at once |
+
+### Heads
+
+| Part | Bonus |
+|---|---|
+| **Hive-Eye** | Shares vision with every nearby Hollow unit. They always know where you are |
+| **Adaptive Mind** | Builds resistance to the damage types used against it, which makes it the hardest to beat by using the same tactic repeatedly |
+| **Disturbance Crown** | Boosts nearby Hollow units, and draws reinforcements as Disturbance rises |
+
+### Hollow Salvage
+
+- Hollow combots drop wreckage at a **much rarer rate** than the faction combots (see `04-combat.md`).
+- A recovered Hollow part is the **most valuable** tech in the game. It can be learned and built by a faction, but costs more and may need research (see `05-economy.md`).
+- A Hollow arm cannon on a Rakdos Juggernaut, or an Adaptive Mind head on an Azorious sniper, would be a big swing in any fight.
+
+**Weakness:** None in the traditional sense, but the Hollow is blind to nothing and slow to react to a united front. Its power scales with Disturbance, so mining less makes it weaker.
+
+---
+
 ## Example Builds
 
 | Name | Faction | Build | Playstyle |

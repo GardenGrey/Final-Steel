@@ -27,7 +27,7 @@ All three companies want the same thing: Magmore. What sets them apart is how th
 - **Tools:** Long-range sensors, beam weapons, air mobility
 - **Strength:** Control of the sky and the battlefield's edges
 - **Weakness:** Low armor, and big losses if pinned down
-- **Mining edge:** Flying harvesters cross terrain quickly and grab distant seams first, but carry less per trip and die fast to any anti-air.
+- **Mining edge:** Light harvesters move faster, but carry less per trip. They grab distant seams first and die fast to any anti-air.
 
 **Diplomacy personality:** Formal and legalistic. Honors contracts to the letter and expects the same. Slow to forgive a broken one.
 
@@ -41,7 +41,7 @@ All three companies want the same thing: Magmore. What sets them apart is how th
 - **Tools:** Heat weapons, reinforced frames, charge abilities
 - **Strength:** Raw durability and damage once in contact
 - **Weakness:** Slow, little answer to air units or kiting
-- **Mining edge:** Heavy harvesters haul the most ore and survive hits, but are slow and expensive.
+- **Mining edge:** Heavy harvesters carry more ore per bot and survive hits, but are slow and expensive.
 
 **Diplomacy personality:** Blunt and proud. Respects strength, distrusts talkers. Easy to anger, but also quick to forgive a fair fight.
 
@@ -55,7 +55,7 @@ All three companies want the same thing: Magmore. What sets them apart is how th
 - **Tools:** Stealth fields, sabotage, self-repair
 - **Strength:** Ambush, intel, and turning enemy tech against them
 - **Weakness:** Fragile when revealed, and needs setup time
-- **Mining edge:** Cloaked harvesters mine seams without being seen, and stealth lets them keep quiet claims. They are easy to kill once spotted.
+- **Mining edge:** Cloaked harvesters can move around the map more freely, slipping past enemies and the Hollow to reach distant seams. They are visible while digging, and easy to kill once spotted.
 
 **Diplomacy personality:** Friendly on the surface, with an agenda underneath. Offers deals that cost you later. Will happily sell you out if it pays.
 
@@ -84,6 +84,10 @@ With one resource, the map does the work. The three companies don't need each ot
 | Azorious | Honors an existing truce, and offers a clean treaty if none exists |
 | Rakdos | Keeps fighting until the Hollow hits them directly, then respects anyone who stands their ground |
 | Simic | Accepts a truce, then quietly mines the abandoned seams |
+
+## The Hollow (Not a Faction)
+
+The Hollow isn't playable and doesn't make deals, but it has its own combot line, with tougher armor and a far more powerful arm cannon than any company. Its identity is **adaptation, burrowing and consuming**. See `03-mech-design.md`.
 
 ## Open Questions
 

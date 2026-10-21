@@ -11,7 +11,7 @@ The Sable Reach is a solar system with five worlds and no government. Three mega
 **Magmore** is a superheated ore found in seams across every world in the Reach. It is everything: it powers mechs, builds armor, forges weapons, and pays for upgrades. There is one resource, so there is one thing worth fighting over.
 
 - Magmore sits in **seams** scattered around each planet's map, some near a company's start, many in the open.
-- Mining is done by **bots**: unmanned harvesters that dig a seam and haul the ore back to a depot. They are cheap, slow and fragile.
+- Mining is done by **bots**: unmanned harvesters that dig a seam and haul the ore back to a refinery. They are cheap, slow and fragile.
 - A seam has a limited amount of ore. Contested seams are worth the most and cost the most to hold.
 - Two companies sending bots to the same seam is how most battles start.
 
@@ -24,6 +24,8 @@ Under the surface of every world sleeps an alien intelligence the corporations c
 - Each world has a **Disturbance** level that rises with the total mining rate on that world, by everyone combined.
 - Higher Disturbance means bigger and more frequent Hollow attacks.
 - It attacks every faction, including whoever is mining quietly.
+- It fights with **its own combots**: armored alien war machines that are tougher and hit harder than anything the corporations build. (See `03-mech-design.md`.)
+- Hollow combots are rarely salvageable, but when one leaves a part behind, it's the most advanced technology in the Reach.
 - It learns. Units that beat it once will not beat it the same way twice.
 - Disturbance fades slowly if mining stops, so there's a real choice between mining hard and mining carefully.
 
@@ -47,6 +49,8 @@ Every battle can turn into this choice, and the Hollow makes sure you don't get 
 | **Skyreach** | Crystal highlands | Azorious | Open ground, long sightlines |
 | **Ashfall** | Dead mining colony | Contested | Depleted, but the ruins hold old seams |
 | **The Hollow Moon** | Unknown | No one | The Hollow's heartland |
+
+*The starting owners above are for the campaign. In regular games, every map has at least 5 or 6 possible start sites and each faction begins at a random one. See `05-economy.md`.*
 
 ## Campaign Structure
 
