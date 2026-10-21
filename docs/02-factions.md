@@ -24,7 +24,7 @@ All three companies want the same thing: Magmore. What sets them apart is how th
 **Combat:** Flying mechs and long-range weapons. Their units are fast and hit hard from afar, but a mech caught on the ground in melee dies quickly.
 
 - **Units:** Skirmish fliers, artillery platforms, spotter drones
-- **Tools:** Long-range sensors, beam weapons, air mobility
+- **Tools:** Long-range sensors, high-velocity rifles, air mobility
 - **Strength:** Control of the sky and the battlefield's edges
 - **Weakness:** Low armor, and big losses if pinned down
 - **Mining edge:** Light harvesters move faster, but carry less per trip. They grab distant seams first and die fast to any anti-air.
