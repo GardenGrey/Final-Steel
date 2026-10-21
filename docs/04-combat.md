@@ -41,7 +41,9 @@ Combots and infantry (trained at the Barracks, see `05-economy.md`) take the sam
 | **Attack** | Attack a target or an area. Units advance, find enemies, and fight until the area is clear |
 | **Defend** | Guard a location or structure. Units hold the area and respond to anything that enters it |
 | **Protect** | Guard a specific unit, such as a bot convoy or an artillery combot. Units stay near it and engage whatever threatens it |
+| **Patrol** | Walk back and forth between two points, and engage anything that comes into view |
 | **Retreat** | Fall back to a chosen point and stop fighting |
+| **Stop** | Cancel the current order and hold position |
 
 ### Stances
 

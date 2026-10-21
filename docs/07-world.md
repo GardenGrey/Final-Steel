@@ -4,7 +4,33 @@
 
 ## Camera
 
-The game is shown from a **bird's-eye view**, looking down on the battlefield, with fog of war over everything outside your vision. (Exact camera angle and UI layout to be set once we have a reference we agree on.)
+The game is shown from a **tilted bird's-eye view**: a 3D battlefield seen from high above at an angle, not a flat top-down map. Hills, rocks and ridges have real height, and units and structures are small against the terrain. Fog of war covers everything outside your vision.
+
+### Reference Look
+
+Based on the reference screenshot:
+
+- **Angled 3D terrain.** Grassy and rocky ground with visible rises, boulders and ridgelines. Height is readable from the camera angle.
+- **Vision as soft pools of light.** Areas near your units and structures are lit and in full color. Areas beyond them fall off into shadow with soft, rounded edges.
+- **Dark outside vision.** The land is still faintly visible in the shadow, but dim. Our rule is **grayed terrain, not black**. Pure black is used only past the map's edge.
+- **Small, readable units.** Combots, bots and buildings are small but clearly colored by faction, with a small health bar and selection marker on selected units.
+- **Bases look like bases.** Clusters of structures with distinct shapes: a big round central building, boxy factories, and small support pieces.
+
+### Interface Layout
+
+A classic strategy layout, arranged around the edges so the battlefield stays in view:
+
+| Area | Contents |
+|---|---|
+| **Top bar** | Game clock, your **Magmore** stockpile, and income rate |
+| **Top right** | **Minimap**, showing the map outline and your current view box |
+| **Right panel** | Selected unit or group portrait, and the order buttons |
+| **Bottom bar** | Details of the selected combot: health, defense, and the parts it is built from (legs, torso, arms, head) |
+
+- The reference game shows two resource counters. **We only have one: Magmore.**
+- Order buttons match `04-combat.md`: **Move, Attack, Defend, Protect, Patrol, Retreat, Stop**, plus the three stances (Aggressive, Defensive, Hold).
+- Faction colors tint the UI frame (see `06-art-direction.md`).
+- The screenshot is a reference for look and feel only. We build our own art, names and layout, and don't copy its assets.
 
 ## Winning a Planet
 
@@ -133,6 +159,8 @@ Random start positions help: since no one knows which site they'll get, nobody c
 
 ## Open Questions
 
+- Should the camera rotate or zoom, or stay at one fixed angle?
+- Should the map edge be black, or fade into a faint gray horizon?
 - Does a faction count as eliminated when its structures are gone, or only when every unit is gone too?
 - Is there a timer or a stalemate rule if two factions hide and the Hollow never finishes them?
 - How does the campaign's final "Unite" ending (see `01-story.md`) work, if every planet is won by elimination?
