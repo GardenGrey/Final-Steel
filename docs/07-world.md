@@ -2,6 +2,21 @@
 
 *Working draft. See `01-story.md` for the planets, `05-economy.md` for bases and seams, and `06-art-direction.md` for the look.*
 
+## Camera
+
+The game is shown from a **bird's-eye view**, looking down on the battlefield, with fog of war over everything outside your vision. (Exact camera angle and UI layout to be set once we have a reference we agree on.)
+
+## Winning a Planet
+
+**The only way to win a planet is to eliminate the other two factions from the map.**
+
+- A faction is **eliminated** when it has nothing left on the map that can rebuild or fight. (Starting rule: all structures and all combots, infantry and bots destroyed. Exact definition to be tuned.)
+- **The Hollow doesn't count.** It can't be eliminated, and it keeps attacking until the end.
+- There is **one winner per planet.** Truces and alliances are real and useful, especially against the Hollow, but they can't end the game. To win, you'll eventually have to break them or outlast your partner.
+- You lose if your own faction is eliminated first.
+
+This keeps the central tension alive: the allies you rely on against the Hollow are the rivals you have to beat.
+
 ## Seeing the World
 
 ### Terrain Is Always Visible, Everything Else Is Not
@@ -118,6 +133,9 @@ Random start positions help: since no one knows which site they'll get, nobody c
 
 ## Open Questions
 
+- Does a faction count as eliminated when its structures are gone, or only when every unit is gone too?
+- Is there a timer or a stalemate rule if two factions hide and the Hollow never finishes them?
+- How does the campaign's final "Unite" ending (see `01-story.md`) work, if every planet is won by elimination?
 - Is each planet one fixed hand-built map, or are maps generated from rules like these?
 - How big should a map be, in screens or in minutes of travel?
 - Can terrain change during the game (eruptions, collapses)?
