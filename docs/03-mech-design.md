@@ -198,7 +198,7 @@ All Simic legs **withstand large falls** better than any other faction's, and Dr
 
 ## Open Questions
 
-- Can a combot mix parts from different factions if the factions ally? (Currently no.)
+- Captured parts from salvage (see `04-combat.md`) let a faction use another faction's parts. Should they have any penalty, such as higher cost or lower efficiency?
 - Should each faction have a fourth, tier-three "signature" part per slot?
 - Do arms need a left/right distinction, or can any arm go on either side?
 - How many combots can a player field at once?

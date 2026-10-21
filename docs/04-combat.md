@@ -10,6 +10,14 @@ You decide **where units go and what they are responsible for**. The combots wor
 
 > Protect this. Defend that. Attack here.
 
+## The Real-Time Rule
+
+**The game never slows down, and no one gets time to plan for free.**
+
+- There is no slow motion, no tactical pause, and no "plan while time is stopped" mode.
+- The player *can* pause the game, but **while paused, no action of any kind is allowed.** No orders, no queuing orders, no building, no changing stances, no truce offers. Pause is for stepping away, not for thinking.
+- All decisions happen live. When the Hollow shows up mid-battle, the clock keeps running while you decide.
+
 ## What the Player Can Do
 
 The player gives orders to individual units or to groups.
@@ -19,6 +27,7 @@ The player gives orders to individual units or to groups.
 | Order | What it does |
 |---|---|
 | **Mine** | Send bots to a Magmore seam. They dig, haul to the nearest depot, and repeat until the seam runs dry |
+| **Salvage** | Send bots to a wreck on the battlefield. They pick up the part and carry it back to base (see Salvage and Captured Tech) |
 | **Move** | Send bots to a position, such as pulling them back from danger |
 | **Stop** | Cancel the current order |
 
@@ -83,6 +92,38 @@ Combat resolves automatically, using the stats from the combot's parts.
 - **Area damage** (such as the howitzer) hits everything near the impact point, including friendly units. Rakdos players need to keep their own units from standing in the way.
 - **Fall damage** applies when combots drop from heights. Simic legs resist it.
 
+## Salvage and Captured Tech
+
+When a combot is destroyed, it may leave something behind. This is how factions steal each other's technology.
+
+### Wreckage
+
+- On destruction, there is a **chance** that **one intact part** survives. It is one of: the legs, one arm, the torso, or the head. Which part is random.
+- Most kills leave nothing. The chance is tunable (a starting guess is around one in three), and it is higher for kills by area damage and lower for kills that fully vaporize the target.
+- The surviving part stays on the battlefield as **wreckage**, visible to everyone nearby.
+- Wreckage doesn't last forever. It **decays** after a few minutes, and the **Hollow consumes wreckage** it finds. That creates time pressure.
+
+### Recovering Wreckage
+
+- Only **mining bots** can pick up wreckage, using the **Salvage** order.
+- The bot must carry the part **back to a friendly base**. If the bot dies on the way, the part drops where it died.
+- Wreckage is a target. A salvage run into a hot zone needs a **Protect** escort, just like mining.
+- Any faction can race for the same wreck, including the one that lost it. Rival bots can fight over it, and a faction can destroy a wreck to deny it.
+
+### Captured Tech
+
+- When a bot delivers a part to base, that faction **learns the part**. It is added to the build menu permanently, for use on any future combot.
+- This includes the boost, weapon or special ability the part provides. A stolen Simic Static Hand, a Rakdos Bastion Head, or an Azorious Rapid Rifle becomes a real option for the capturing faction.
+- Captured parts are **blueprints, not items**. Once learned, the faction can build as many as it can afford, paying the normal Magmore cost.
+- If a faction already knows the part, the delivery is worth **Magmore scrap** instead.
+- This is the only way to mix parts across factions.
+
+### Why It Matters
+
+- Fights become more than killing. A good win includes holding the ground long enough to grab the wreck.
+- Factions can grow beyond their identity. A heavy Rakdos army that steals a Simic cloak head becomes something new.
+- It rewards risk. Better wrecks come from the hardest fights, usually where the Hollow is also active.
+
 ## Cloaking and Detection
 
 - A cloaked Simic combot can't be targeted by enemies who can't see it.
@@ -126,13 +167,18 @@ The Hollow is a third party in every fight.
 - Select a unit or group, then right-click a location or target to give an order.
 - Hotkeys for each order (Move, Attack, Defend, Protect, Retreat).
 - A small icon over each group shows its current order and stance.
-- A map overlay shows Disturbance, Magmore seams and visible enemies.
-- Orders can be queued, so a group can go here, then there, then hold.
+- A map overlay shows Disturbance, Magmore seams, wreckage and visible enemies.
+- Orders can be queued during live play, so a group can go here, then there, then hold.
+- Pausing blocks all actions. Whether the camera can still move while paused is an open question.
 
 ## Open Questions
 
-- Should the player be able to pause or slow time to plan?
+- Can the camera pan while paused, or is the screen frozen?
+- Should pausing be limited in multiplayer, if we add it?
 - Do we want formations, or is group stance enough?
+- Can a faction recover its own wrecks, for a partial refund?
+- Can the Hollow's own wreckage be salvaged for special parts?
+- How many captured parts can a faction hold? Is there a cap or a research cost?
 - How much should a combot's AI deviate from orders to survive?
 - How big should a typical army be? (Affects UI and performance.)
 - Do we need a way to set standing orders, such as "always defend this seam"?
