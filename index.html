@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Steel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="view"></canvas>
+  <div id="selbox"></div>
+
+  <div id="ui" hidden>
+    <div id="topbar">
+      <span id="clock">0:00</span>
+      <span id="planet"></span>
+      <span class="res">Magmore <b id="magmore">0</b> <em id="income"></em></span>
+      <span class="dist" title="Mining raises Disturbance. The higher it is, the more the Hollow attacks.">
+        Disturbance <i class="bar"><b id="distfill"></b></i> <em id="distval">0</em>
+      </span>
+      <span class="spacer"></span>
+      <button id="pauseBtn">Pause</button>
+      <button id="helpBtn">Help (H)</button>
+    </div>
+
+    <div id="side">
+      <canvas id="minimap"></canvas>
+      <div id="hint"></div>
+      <div id="orders"></div>
+    </div>
+
+    <div id="bottombar"><span id="details"></span></div>
+    <div id="toasts"></div>
+  </div>
+
+  <div id="pause" hidden>
+    <div>
+      <h2>Paused</h2>
+      <p>No orders can be given while paused.</p>
+    </div>
+  </div>
+
+  <div id="help" hidden>
+    <div class="card">
+      <h2>Controls</h2>
+      <ul>
+        <li><b>Left-click</b> select a unit or building. <b>Drag</b> to box-select units.</li>
+        <li><b>Right-click</b> a smart order: ground = move, Magmore seam = mine, wreck = salvage, enemy = attack, friendly unit = protect.</li>
+        <li><b>M / A / D / E / P / R / S</b> Move, Attack, Defend, Protect, Patrol, Retreat, Stop. Then click the target.</li>
+        <li><b>1 / 2 / 3</b> stances: Aggressive, Defensive, Hold.</li>
+        <li><b>Select a building</b> to build units. Right-click the ground to set where they go.</li>
+        <li><b>Arrow keys</b> or screen edges pan the camera. <b>Mouse wheel</b> zooms. <b>B</b> jumps to your base. WASD pans when nothing is selected.</li>
+        <li><b>Space</b> pauses. Orders are not allowed while paused.</li>
+      </ul>
+      <p>Mine Magmore to grow, but mining raises Disturbance, and the Hollow attacks everyone. Wipe out the other two companies to win.</p>
+      <button id="helpClose">Close</button>
+    </div>
+  </div>
+
+  <div id="endscreen" hidden>
+    <div class="card">
+      <h2 id="endtitle"></h2>
+      <p id="endtext"></p>
+      <button id="restart">Play again</button>
+    </div>
+  </div>
+
+  <div id="menu">
+    <div class="card wide">
+      <h1>FINAL STEEL</h1>
+      <p class="tagline">Three companies. One resource. An alien intelligence that wakes when you dig.</p>
+      <h3>Planet</h3>
+      <div id="planetChoices" class="choices"></div>
+      <h3>Your company</h3>
+      <div id="factionChoices" class="choices"></div>
+      <button id="start" class="big">Start</button>
+      <p class="muted">Prototype v0. Press H in game for controls.</p>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

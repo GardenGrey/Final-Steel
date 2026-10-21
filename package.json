@@ -4,6 +4,10 @@
   "type": "module",
   "scripts": {
     "test": "node tests/sim.test.mjs",
+    "test:ui": "node tests/ui.smoke.mjs",
     "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
   }
 }
