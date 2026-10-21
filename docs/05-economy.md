@@ -16,7 +16,7 @@ Seam --> Mining bot --> Refinery --> Magmore stockpile --> Build (bots, structur
 
 - **Random start.** Every game begins at a random spot on the map. Each map has **at least 5 or 6 possible start sites**, and the three factions are placed on different sites at random.
 - Unused start sites stay **vacant**. They're open to anyone who finds them, and each is a ready-made place to build a second base.
-- Everything starts in **fog of war**. You know your own base and the ground around it, and nothing else. Exploring is part of the early game.
+- You can see the **shape of the land** from the start, but not what is on it. Outside your units' sight the map is grayed out, and enemy movements and unfound seams stay hidden. Exploring is part of the early game (see `07-world.md`).
 - **The Hollow starts dormant** everywhere, and wakes as mining raises Disturbance.
 
 ## The Starter Reserve
