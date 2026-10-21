@@ -6,43 +6,55 @@
 
 The Sable Reach is a solar system with five worlds and no government. Three mega-corporations won the right to mine it after the old Terran Charter collapsed, and the Charter's last clause is the only law left: **whoever holds the most ground when the audit comes, owns the system.** The audit is in 12 years. Nobody trusts anyone.
 
-Three resources make the Reach worth owning:
+## Magmore: The Only Resource
 
-| Resource | What it is | Used for |
-|---|---|---|
-| **Magmore** | Superheated ore from volcanic worlds | Armor, engines, heavy weapons |
-| **Vitanimite** | Living bio-compound from jungle worlds | Repairs, adaptive systems, stealth skins |
-| **Thaylium** | Conductive crystal from desert worlds | Energy weapons, sensors, flight systems |
+**Magmore** is a superheated ore found in seams across every world in the Reach. It is everything: it powers mechs, builds armor, forges weapons, and pays for upgrades. There is one resource, so there is one thing worth fighting over.
 
-No single company can reach top-tier equipment without all three. That's why the rivalry never fully becomes a war of annihilation, and why diplomacy matters.
+- Magmore sits in **seams** scattered around each planet's map, some near a company's start, many in the open.
+- Mining is done by **bots**: unmanned harvesters that dig a seam and haul the ore back to a depot. They are cheap, slow and fragile.
+- A seam has a limited amount of ore. Contested seams are worth the most and cost the most to hold.
+- Two companies sending bots to the same seam is how most battles start.
 
 ## The Hollow
 
-Under the surface of every world sleeps an alien intelligence the corporations call **the Hollow**. It is not a faction. It does not negotiate, ally, or take sides. It wakes in response to extraction: the more a world is mined, the more the Hollow stirs there.
+Under the surface of every world sleeps an alien intelligence the corporations call **the Hollow**. It is not a faction. It does not negotiate, ally, or take sides. It wakes in response to extraction.
 
-- It attacks everyone, including whoever is mining quietly.
+**The more Magmore is mined on a world, the more aggressive the Hollow becomes there.**
+
+- Each world has a **Disturbance** level that rises with the total mining rate on that world, by everyone combined.
+- Higher Disturbance means bigger and more frequent Hollow attacks.
+- It attacks every faction, including whoever is mining quietly.
 - It learns. Units that beat it once will not beat it the same way twice.
-- It feeds on spent Magmore, Vitanimite and Thaylium, so a war that burns resources feeds it too.
+- Disturbance fades slowly if mining stops, so there's a real choice between mining hard and mining carefully.
 
 The corporations know about the Hollow. They each hope the others take the losses first.
 
+## The Core Decision
+
+This is the heart of the game. A fight over a seam is going fine, and then the Hollow arrives. Now you choose:
+
+1. **Keep fighting.** Press the attack and let the Hollow hit everyone. You might win the seam, or lose everything to a bigger threat.
+2. **Team up.** Offer a truce, hold the line together, and sort out the seam afterward. The others may accept, refuse, or accept and betray you.
+
+Every battle can turn into this choice, and the Hollow makes sure you don't get to settle things cleanly.
+
 ## The Planets
 
-| World | Type | Main resource | Starting owner |
+| World | Type | Starting owner | Notes |
 |---|---|---|---|
-| **Cinder** | Volcanic | Magmore | Rakdos |
-| **Verdis** | Jungle | Vitanimite | Simic |
-| **Skyreach** | Crystal highlands | Thaylium | Azorious |
-| **Ashfall** | Dead mining colony | Mixed, depleted | Contested |
-| **The Hollow Moon** | Unknown | Unknown | No one |
+| **Cinder** | Volcanic | Rakdos | Rich seams, tight chokepoints |
+| **Verdis** | Jungle | Simic | Dense cover, many small seams |
+| **Skyreach** | Crystal highlands | Azorious | Open ground, long sightlines |
+| **Ashfall** | Dead mining colony | Contested | Depleted, but the ruins hold old seams |
+| **The Hollow Moon** | Unknown | No one | The Hollow's heartland |
 
 ## Campaign Structure
 
 You choose one company. Each has its own story, but the arc has the same three acts.
 
-**Act I: The Scramble.** Claim your home world, learn to build and fight, and make first contact with the other two. The Hollow is a rumor, and the first encounters feel like random wildlife.
+**Act I: The Scramble.** Claim your home world, learn to build and fight, and stake the first seams. Contact with the other companies is light. The Hollow is a rumor, and early encounters feel like wildlife.
 
-**Act II: The Fracture.** Supply lines matter now. Your tier-two gear needs resources you don't own, so you trade, raid, or ally. A surprise Hollow attack on one world forces everyone to react, and a broken truce or broken alliance changes the map.
+**Act II: The Fracture.** The easy seams run dry and Disturbance climbs. Fights over seams become routine, and the Hollow starts crashing them. A broken truce or broken alliance changes the map.
 
 **Act III: The Audit.** The Hollow surfaces in force. The final act is a choice between:
 
@@ -56,13 +68,13 @@ Each company has a **relationship** with you from -100 to +100. It moves based o
 
 | State | Range | Effect |
 |---|---|---|
-| War | below -50 | Attacks on sight, no trade |
-| Rivalry | -50 to -10 | Border raids, trade at a premium |
-| Neutral | -10 to +10 | Open trade |
-| Truce | +10 to +50 | Shared sight, cheaper trade |
-| Alliance | above +50 | Shared resources, joint Hollow defense |
+| War | below -50 | Attacks on sight |
+| Rivalry | -50 to -10 | Border raids, will contest your seams |
+| Neutral | -10 to +10 | Leaves you alone unless you crowd them |
+| Truce | +10 to +50 | Won't attack, shares sight of the Hollow |
+| Alliance | above +50 | Joint defense, may share seams |
 
-Betraying a truce costs more reputation than never making one. Every company remembers.
+Truces and alliances are what you reach for when the Hollow shows up. Betraying one costs more reputation than never making one. Every company remembers.
 
 ## Tone
 
@@ -72,4 +84,5 @@ Industrial and tense, with big machines and small, human stakes. Corporate doubl
 
 - Does the player pick a company, or lead a fourth independent contractor? (Currently: pick one.)
 - How many missions per act?
-- Do we want voiced briefings or text only?
+- Is Disturbance visible to the player as a number, a map overlay, or only through the Hollow's behavior?
+- Can a truce be offered mid-battle with one click, or does it take time to negotiate?
